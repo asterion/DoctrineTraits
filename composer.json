@@ -1,0 +1,20 @@
+{
+    "name": "asterion/doctrine-traits",
+    "version": "1.0.0",
+    "description": "Traits utility for Entities Doctrine",
+    "type": "library",
+    "require": {
+        "doctrine/orm": "^2.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcos Matamala",
+            "email": "asterion.alfa@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"Asterion\\": "src/"}
+    }
+}
